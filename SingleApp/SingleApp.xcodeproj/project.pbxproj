@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B59544B2256C6960032ABDE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59544A2256C6960032ABDE /* LoginVC.swift */; };
 		8BCDA6922256C587006E9964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDA6912256C587006E9964 /* AppDelegate.swift */; };
 		8BCDA6942256C587006E9964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDA6932256C587006E9964 /* ViewController.swift */; };
 		8BCDA6972256C587006E9964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCDA6952256C587006E9964 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B59544A2256C6960032ABDE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8BCDA68E2256C587006E9964 /* SingleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCDA6912256C587006E9964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BCDA6932256C587006E9964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B5954492256C67A0032ABDE /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				8B59544A2256C6960032ABDE /* LoginVC.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
 		8BCDA6852256C587006E9964 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		8BCDA6902256C587006E9964 /* SingleApp */ = {
 			isa = PBXGroup;
 			children = (
+				8B5954492256C67A0032ABDE /* LoginVC */,
 				8BCDA6912256C587006E9964 /* AppDelegate.swift */,
 				8BCDA6932256C587006E9964 /* ViewController.swift */,
 				8BCDA6952256C587006E9964 /* Main.storyboard */,
@@ -261,6 +272,7 @@
 			files = (
 				8BCDA6942256C587006E9964 /* ViewController.swift in Sources */,
 				8BCDA6922256C587006E9964 /* AppDelegate.swift in Sources */,
+				8B59544B2256C6960032ABDE /* LoginVC.swift in Sources */,
 				8BCDA69A2256C587006E9964 /* SingleApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
